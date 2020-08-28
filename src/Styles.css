@@ -1,0 +1,78 @@
+h4,
+h5 {
+  font-family: "Oswald", sans-serif;
+}
+
+h5 {
+  border: double #0779e4;
+}
+p {
+  font-size: 20px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  list-style: none;
+}
+
+button {
+  background: #0779e4;
+  border: 1px solid;
+  color: #fff;
+  padding: 6px 12px;
+}
+button:hover {
+  color: #0779e4;
+  background: linear-gradient(to top, #dfe9f3 0%, white 50%);
+}
+input {
+  text-align: center;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 50%);
+}
+.container {
+  border: 1px solid;
+  border-color: #0779e4;
+  border-radius: 4px;
+  margin: 80px 100px;
+  padding: 15px;
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+.circle-container {
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: #0779e4;
+  padding: 40px 30px;
+  margin: 5%;
+  width: 250px;
+  height: 250px;
+  text-align: 100px;
+}
+.container-text {
+  margin: 12%;
+}
+.card {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 50%);
+}
+.now-temp {
+  font-size: 26px;
+}
+.units {
+  font-size: 26px;
+}
+.geolocation {
+  display: block;
+  margin: 20px auto;
+  background: #0779e4;
+  color: #fff;
+  padding: 10px 20px;
+}
