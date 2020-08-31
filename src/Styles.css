@@ -37,7 +37,8 @@ input {
   border: 1px solid;
   border-color: #0779e4;
   border-radius: 4px;
-  margin: 80px 100px;
+  margin: 20px;
+  max-width: 630px;
   padding: 15px;
   text-align: center;
   background-image: linear-gradient(
@@ -75,4 +76,8 @@ input {
   background: #0779e4;
   color: #fff;
   padding: 10px 20px;
+}
+.open-source {
+  margin: 0 37px;
+  font-size: 120%;
 }
