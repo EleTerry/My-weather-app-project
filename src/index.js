@@ -60,7 +60,7 @@ function showTemperature(response) {
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
 }
-search("Nottingham");
+search("London");
 
 function showPosition(position) {
   let apiKey = "00f59b8f2bccd0db3d87558a2dc2abfa";
