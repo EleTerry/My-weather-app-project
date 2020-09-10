@@ -34,12 +34,12 @@ input {
   background-image: linear-gradient(to top, #dfe9f3 0%, white 50%);
 }
 .container {
-  border: 1px solid;
-  border-color: #0779e4;
+  border: 1px solid #0779e4;
+
   border-radius: 4px;
-  margin: 20px;
-  max-width: 630px;
-  padding: 15px;
+  max-width: 600px;
+  margin: 30px auto 0;
+  padding: 10px;
   text-align: center;
   background-image: linear-gradient(
     to top,
@@ -48,6 +48,7 @@ input {
     #e3eeff 100%
   );
 }
+
 .circle-container {
   border: 2px solid;
   border-radius: 50%;
@@ -64,20 +65,15 @@ input {
 .card {
   background-image: linear-gradient(to top, #dfe9f3 0%, white 50%);
 }
+
 .now-temp {
   font-size: 26px;
 }
 .units {
   font-size: 26px;
 }
-.geolocation {
-  display: block;
-  margin: 20px auto;
-  background: #0779e4;
-  color: #fff;
-  padding: 10px 20px;
-}
+
 .open-source {
-  margin: 0 37px;
+  margin: 0 112.5px;
   font-size: 120%;
 }
