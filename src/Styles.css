@@ -2,10 +2,10 @@ h4,
 h5 {
   font-family: "Oswald", sans-serif;
 }
-
 h5 {
   border: double #0779e4;
 }
+
 p {
   font-size: 20px;
 }
@@ -67,10 +67,10 @@ input {
 }
 
 .now-temp {
-  font-size: 26px;
+  font-size: 36px;
 }
 .units {
-  font-size: 26px;
+  font-size: 16px;
 }
 
 .open-source {
