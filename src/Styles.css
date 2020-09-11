@@ -1,4 +1,4 @@
-h4,
+h3,
 h5 {
   font-family: "Oswald", sans-serif;
 }
@@ -35,7 +35,6 @@ input {
 }
 .container {
   border: 1px solid #0779e4;
-
   border-radius: 4px;
   max-width: 600px;
   margin: 30px auto 0;
@@ -53,14 +52,17 @@ input {
   border: 2px solid;
   border-radius: 50%;
   border-color: #0779e4;
-  padding: 40px 30px;
-  margin: 5%;
+  padding: 40px;
+  margin: 40px;
   width: 250px;
   height: 250px;
   text-align: 100px;
 }
 .container-text {
-  margin: 12%;
+  margin: 82px;
+}
+.date-time {
+  margin: 90px;
 }
 .card {
   background-image: linear-gradient(to top, #dfe9f3 0%, white 50%);
@@ -71,9 +73,18 @@ input {
 }
 .units {
   font-size: 16px;
+  position: relative;
+  top: -15px;
 }
 
 .open-source {
-  margin: 0 112.5px;
+  text-align: center;
   font-size: 120%;
+}
+.active {
+  color: black;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
 }
