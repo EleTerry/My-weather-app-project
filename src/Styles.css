@@ -1,13 +1,10 @@
 h3,
-h5 {
+h4 {
   font-family: "Oswald", sans-serif;
 }
-h5 {
-  border: double #0779e4;
-}
 
-p {
-  font-size: 20px;
+h4 {
+  border: double #0779e4;
 }
 ul {
   margin: 0;
@@ -64,9 +61,6 @@ input {
 .date-time {
   margin: 90px;
 }
-.card {
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 50%);
-}
 
 .now-temp {
   font-size: 36px;
@@ -77,6 +71,9 @@ input {
   top: -15px;
 }
 
+.forecast-text {
+  font-size: 20px;
+}
 .open-source {
   text-align: center;
   font-size: 120%;
