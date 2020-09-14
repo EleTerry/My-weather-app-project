@@ -4,9 +4,7 @@
     <title>Weather App</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="src/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Oswald:wght@500&family=Roboto+Condensed:wght@700&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script><script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <link
@@ -24,64 +22,53 @@
       
         <form class="form-search" >
             <div class="row">
-                <div class="col-9">
+                <div class="col-8">
                     <input type="text" class="form-control" placeholder="Enter your City 📍" id="text-input" />
                 </div>
-                <div class="col-3">
-                    <button type="submit" class="rounded-pill" id="search-form"> Search
+                <div class="col-1">
+                    <button type="submit" class="rounded-sm" id="search-form"> Search
                         </button>
+                        </div>
+                        <div class="col-3">
+                        <button class="geolocation" >
+                          Current Location
+                        </button>
+                      </div>   
                 </div>
-            </div>
-             <div class="row">
-               <div class="col-4">
+                <br/>
+                <div id="geolocation-text">
+                <h6></h6>
+           </div>
+            </form>
+            <div class="row">
             <div class="circle-container">
-
-                <h3 class="city">
-                    Nottingham
-                    </h3>
-              
                     <span class="now-temp"></span>
                      <span class="units"><a href="#" id="celsius-link" class="active">°C </a> |<a href="#" id="fahrenheit-link"> °F</a></span>
                   </span>
-                <br/>
+                <h3 class="city">
+                    Nottingham
+                    </h3>
                 <ul>
                   <li> 
                     <img src="#" id="description-icon"/> <span id="description"> Clouds</span> 
                 </li>
-              </div>
-            </div>
-            <div class="col-4">
-                <div class="date-time">
-                  <ul>
-                <li class="time">
-                    20:11
-                    
-                </li>
-                    <li class="date">
-                        Sunday 2nd
-                    </li>
-                    </ul>
-              </div>
-                  </div>
-                  <div class="col-4">
+
+            </ul>
+          </div>
+      
             <div class="container-text">
               <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Humidity: <span id="humidity"></span>%</li>  
             <li>Wind Speed: <span id="wind"></span>km/h</li>  
-                <br/>
-                <li>
-                Sunrise: 
-                 05:26
-                </li>
-                <li>
-                Sunset: 
-                20:58 
-              </li>
+            <br/>
+                          <li class="date">
+Monday 14
+              </li>  
 </ul>
 </div>
-            </div>
-          </div>
-      <div class="row" id="forecast">
+</div>
+            
+      <div class="row" class="forecast-stats" id="forecast">
         
         </div>
     </div>
